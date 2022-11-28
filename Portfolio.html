@@ -1,76 +1,87 @@
 <html>
+    
    
-    <title> Connect 4</title>
+    <title> Ben Zarom</title>
         <head>
 
             <link rel="stylesheet" href="styles.css">
 
         </head>
     
-        <header
-        style="font-size: 80px;
-        font-family:verdana;
-        color: white;
-        padding-left: 500px;">
+            <div class="head">
+            Ben Zarom
+            
+             </div> 
+
+        <div class="descript">
+
+            Computer Science Student at the University of Pittsburgh.
+            
+        </div>
+           
+    
+      
+          
+
+        <object class="banner"> 
+            
+            
+            <object>
+                <img src="Me.png" class="imageOb">   
+            </object>
+
         
-            Ben Zarom 
-        </header>
 
-        <div id="Tabs">
-            <div>
-                PROJECTS
-                
-                Experience
+            <p class="bannerText"
+                    >
+                Hello! I am a Computer Science Student at the  <b>University of Pittsburgh </b>. 
+                I am passionate about problem solving, collaboration, and creativity.
+                I have experience in Java, C, and HTML/CSS/JavaScript I am currently seeking an internship in Software 
+                Development for this upcoming summer. 
+            </p>
+
+        </object>
+        <div class="dropdown">
+            <button id="myBtn" class="menubtn">
+                <img src ="dropdown.png"
+                style="width: 25px"
+                style="height: 25px">
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+            <a href="">
+                <div>
+                Coding Projects
             </div>
-            <a href="FavoriteProject.HTML">
-                <img src="Projects.jpeg"
-                width="100"
-                height="100">
-    
-            </a> 
-
+                <img src="Projects.png" 
+                style="width: 50px"
+                style="height: 50px">
+                </a>
+            <a href="CDM.HTML">
+                <div>
+                    Digital Media Projects
+                </div>
+                <img src="Projects.png" 
+                style="width: 50px"
+                style="height: 50px">
+            </a>
+            
+            <a href="">
+                <div>
+                    Resume and Transcript
+                </div>
+            <img src="resume.png" 
+            style="width: 50px"
+            style="height: 50px">
+            </a>
+            </div>
         </div>
-
-
-
-        <div 
-        style="padding-left: 530px;
-                padding-top:100px;">
-             <img src="Me.JPG"
-                width="400"
-                height="300">
-    
-
-        </div>
-        <div
-     
-
-
-
-        </div>
-        <div
-        style="
-        background-color:dodgerblue;
-        /* padding-left: 700px; */
-        /* padding-top: 400px; */
-        font-size: 30px;
-        "
-        >
-        <ul
-        style="font-family:verdana;
-         color: white;">
-            <li>Phone Number:267-403-6568
-                 </li>
-            <li> Email: bez20@pitt.edu
-
-            </li>
-            <li> 
-                Address: 549 Haverford Rd
-            </li>
-        </ul>
-     
-
-        </div>
-    
+        
+                <script>
+                
+                    document.getElementById("myBtn").onclick = function() {myFunction()};
+                    function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                </script>    
 
 </html>
