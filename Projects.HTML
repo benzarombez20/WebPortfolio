@@ -1,0 +1,232 @@
+<html>
+<title>
+    Projects
+</title>
+<head>
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+
+
+<div class="head">
+
+Coding Projects
+
+
+</div>
+
+
+
+<div class="virtualMemoryTitle">
+    <div>
+        Virtual Memory Project 
+    </div>
+
+    <div>
+        <img src="images/Java_programming_language_logo.svg.png" style="width: 30px"> 
+
+    </div>
+
+    <button id="myBtn" class="menubtn">
+    Expand
+    
+    </button>
+
+</div>
+
+<div class="virtualMemoryBox" id="vm">
+    In this project I created a virtual memory simulation in Java. My goal was to find the algorithm that would be the best at avoiding page faults. The page table we simulated was a 32 bit address space with a page size of 2KB. After conducting simulations on these four different algorithms: Rand, Clock, NRU, Opt, there is one algorithm that is clearly the best at avoiding page faults. Across all frame numbers Opt performed the best. The algorithms we used we as follows:
+Opt – Simulate what the optimal page replacement algorithm would choose if it had perfect knowledge.
+Rand – Choose a valid page at random.
+Clock – Use the better implementation of the second-chance algorithm NRU – Pick a not recently used page
+
+<div>
+
+
+<button id="collapse" class="menubtn">
+    Collapse
+    
+    </button>
+</div>
+
+
+</div>
+<div>
+
+</div>
+<div class="queueTitle">
+
+    <div>
+        Queue Project   
+    </div>
+
+
+    <div>
+        <img src="images/1200px-C_Programming_Language.svg.png" style="width: 30px"> 
+
+    </div>
+    
+    <div>
+
+    <button id="myBtn1" class="menubtn">
+    Expand
+   
+    </button>
+
+    </div>
+
+</div>
+<div>
+
+</div>
+
+<div class="queueBox" id="q">
+    In this assignment I implemented a queue using a linked list in C. 
+    The user is able to add elements to the beggining and end of this list.
+    By allocating and freeing space as necessary to avoid segmentation faults and other errors.
+    
+
+    <div>
+
+    </div>
+    <button id="collapse1" class="menubtn">
+        Expand
+
+        </button>
+    
+    </div>
+
+</div>
+
+
+<div class="autoCompletetitle">
+    <div>
+        Auto Complete Project   
+    </div>
+
+    <div>
+        <img src="images/Java_programming_language_logo.svg.png" style="width: 30px"> 
+
+    </div>
+    
+    <div>
+
+    </div>
+
+    <div>
+
+    <button id="myBtn2" class="menubtn">
+    Expand
+    </button>
+
+    </div>
+    
+</div>
+
+<div>
+
+</div>
+
+<div class="autoCompleteBox" id="ac">
+    In this project  I implemented a De La Braindias Trie using Java  that stores words implicitly through keys. 
+     I u sed a recursive algorithm to identify the correct placement of a letter to create a defacto dictionary. 
+     As the user in these systems type in letters, the system shows an updated list of word suggestions 
+     to help the user complete the word thy are typing. The system will order 
+    the suggested words based on a _score_ that represents the number of times a word has been selected as a
+     suggestion. The system can learn new words that are not in its dictionary.
+
+
+     <div>
+
+     </div>
+     <button id="collapse2" class="menubtn">
+        Collapse
+    
+        
+            
+        </button>
+    </div>
+
+</div>
+
+<div class="return">
+
+
+<a href="Portfolio.html">
+    
+<img src="images/house_nice.svg" 
+style="width: 50px"
+style="height: 50px">
+</a>
+</div>
+
+
+<script>
+const targetDiv = document.getElementById("vm");
+const btn = document.getElementById("myBtn");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+  } else {
+    targetDiv.style.display = "inline-block";
+  }
+}
+const targetDiv1 = document.getElementById("q");
+const btn1 = document.getElementById("myBtn1");
+
+btn1.onclick = function () {
+  if (targetDiv1.style.display !== "none") {
+    targetDiv1.style.display = "none";
+  } else {
+    targetDiv1.style.display = "inline-block";
+  }
+}
+const targetDiv2 = document.getElementById("ac");
+const btn2 = document.getElementById("myBtn2");
+btn2.onclick = function () {
+  if (targetDiv2.style.display !== "none") {
+    targetDiv2.style.display = "none";
+  } else {
+    targetDiv2.style.display = "inline-block";
+  }
+}
+const targetDivCollapse = document.getElementById("vm");
+const btnc = document.getElementById("collapse");
+btnc.onclick = function () {
+  if (targetDivCollapse.style.display !== "none") {
+    targetDivCollapse.style.display = "none";
+  } else {
+    targetDivCollapse.style.display = "inline-block";
+  }
+}
+const targetDivCollapse1 = document.getElementById("q");
+const btnc1 = document.getElementById("collapse1");
+btnc1.onclick = function () {
+  if (targetDivCollapse1.style.display !== "none") {
+    targetDivCollapse1.style.display = "none";
+  } else {
+    targetDivCollapse1.style.display = "inline-block";
+  }
+}
+const targetDivCollapse2 = document.getElementById("ac");
+const btnc2 = document.getElementById("collapse2");
+btnc2.onclick = function () {
+  if (targetDivCollapse2.style.display !== "none") {
+    targetDivCollapse2.style.display = "none";
+  } else {
+    targetDivCollapse2.style.display = "inline-block";
+  }
+}
+
+
+
+
+   
+</script>
+
+
+
+
+</html>
+    
