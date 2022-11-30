@@ -1,7 +1,7 @@
 body {background-image: url("backround.jpg");
     
 background-size: cover;
-background-repeat: no-repeat;}
+background-repeat: repeat;}
 
 h1 {color:maroon;}
 
@@ -159,8 +159,164 @@ h1 {color:maroon;}
     width: 1400px;
     border: 3px solid black;
     display: inline-block;
-    
 }
+
+.virtualMemoryTitle{
+
+  margin-left: 22%;
+  position: relative;
+  background-color: aliceblue;
+
+  font-size: 40px;
+  margin-top: 10px;
+  height: 135px;
+  width: 800px;
+  border: 3px solid black;
+  display: inline-block;
+  text-align: center;
+
+}
+.virtualMemoryBox{
+
+  margin-left: 22%;
+  display: none;
+  margin-left: 22%;
+  
+
+    position: relative;
+    background-color: aliceblue;
+
+    font-size: 40px;
+    margin-top: 10px;
+   
+    height: 800px;
+    width: 800px;
+    border: 3px solid black;
+    display: none;
+    text-align: center;
+}
+
+.autoCompleteBox{
+  display: block;
+
+  
+  margin-left: 22%;
+    position: relative;
+    background-color: aliceblue;
+
+    font-size: 40px;
+    margin-top: 10px;
+    height: 800px;
+    width: 800px;
+    border: 3px solid black;
+    display: none;
+    text-align: center;
+}
+
+.queueTitle{
+
+  margin-left: 22%;
+  position: relative;
+  background-color: aliceblue;
+
+  font-size: 40px;
+  margin-top: 10px;
+  height: 110px;
+  width: 800px;
+  border: 3px solid black;
+  display: block;
+  text-align: center;
+
+}
+.autoCompleteTitle{
+
+
+  margin-left: 22%;
+  position: relative;
+  background-color: aliceblue;
+
+  font-size: 40px;
+  margin-top: 10px;
+  height: 135px;
+  width: 800px;
+  border: 3px solid black;
+  display: block;
+  text-align: center;
+
+}
+.queueBox{
+
+  margin-left: 22%;
+    display: block;
+    position: relative;
+    background-color: aliceblue;
+
+    font-size: 40px;
+    margin-top: 10px;
+    height: 350px;
+    width: 800px;
+    border: 3px solid black;
+    display: none;
+    text-align: center;
+}
+
+.imageLI{
+  margin-top: 250px;
+  margin-left: 20%;
+  width: 120px;
+
+}
+
+.imageGH{
+  margin-left: 5%;
+  margin-top: 100px;
+  width: 120px;
+}
+.phone{
+  font-size: 10px;
+  margin-top: 100px;
+  width: 120px;
+}
+.fCaption{
+  margin-left: 19%;
+  font-size: 20px;
+  
+}
+.caption{
+  margin-left: 3.2%;
+  font-size: 20px ;
+
+}
+.caption1{
+  margin-left: 6%;
+  font-size: 20px ;
+
+}
+.caption2{
+  margin-left: 9.5%;
+  font-size: 20px ;
+
+}
+.caption3{
+  margin-left: 9%;
+  font-size: 20px ;
+
+}
+
+.return{
+  width: 50px;
+  height: 50px;
+  margin-left: 48.5%;
+
+}
+
+
+
+
+
+
+
+
 
   
 
