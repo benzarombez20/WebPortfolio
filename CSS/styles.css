@@ -108,7 +108,7 @@ h1 {color:maroon;}
 
 .visualDropBtn{
     
-    margin-left: 50%
+    float: top;
     margin-top: 3%;
     background-color: aliceblue;
     height: 610px;
